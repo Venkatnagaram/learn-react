@@ -1,4 +1,5 @@
-import ExpensiveItem from "./expanseitem/ExpensiveItem";
+import React from 'react';
+import ExpensiveItem from "./expenseitem/ExpensiveItem";
 import Card from "../ui/card/Card";
 import './Expenses.css';
 const Expenses = (props) => {
@@ -11,5 +12,4 @@ const Expenses = (props) => {
         </div>
     );
 }
-
 export default Expenses;

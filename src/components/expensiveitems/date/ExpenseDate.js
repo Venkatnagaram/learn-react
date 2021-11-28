@@ -1,4 +1,5 @@
-import './ExpanseDate.css';
+import React from "react";
+import './ExpenseDate.css';
 const ExpanseDate = (props) => {
     const day = props.date.toLocaleString('en-US', { day: '2-digit'});
     const month = props.date.toLocaleString('en-US', { month: 'long'});

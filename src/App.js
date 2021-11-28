@@ -1,3 +1,5 @@
+import React from 'react';
+import NewExpense from './components/expensiveitems/NewExpense/NewExpense';
 import Expenses from './components/expensiveitems/Expenses';
 const App = () => {
   const expenses = [
@@ -23,7 +25,7 @@ const App = () => {
   ];
   return (
     <div>
-      <h2>Venkat 1.0</h2>
+      <NewExpense />
       <Expenses items={expenses} />
     </div>
   )
